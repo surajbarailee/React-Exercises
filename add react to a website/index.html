@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Adding React in a Website</title>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="container_div"></div>
+    <h3>This is the body...</h3>
+    <p>
+      The below code is from the react
+    </p>
+    <div id="container_div1"></div>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script
+      src="https://unpkg.com/react@16/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <!-- Load our React component. -->
+    <script src="mycontainer.js"></script>
+  </body>
+</html>
