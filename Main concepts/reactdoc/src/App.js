@@ -5,6 +5,8 @@ import Components from "./components.js";
 import StateandLifecycle from "./StateandLifecycle.js";
 import EventHandling from "./EventHandling";
 import ConditionalRendering from "./ConditionalRendering";
+import ListandKeys from "./ListandKeys";
+import Forms from "./Forms";
 //use of hello world
 function App() {
   const componentvalue = {
@@ -24,6 +26,8 @@ function App() {
       <StateandLifecycle />
       <EventHandling />
       <ConditionalRendering />
+      <ListandKeys />
+      <Forms />
     </div>
   );
 }

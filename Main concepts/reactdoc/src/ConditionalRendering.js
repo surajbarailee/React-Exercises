@@ -11,8 +11,8 @@ export default class ConditionalRendering extends Component {
     return (
       <div>
         {console.log(this.state.date.getDay())}
-        {this.state.date.getDay() != 0 && <h1>Sad Its not sunday</h1>}
-        {this.state.date.getDay() != 0 ? (
+        {this.state.date.getDay() !== 0 && <h1>Sad Its not sunday</h1>}
+        {this.state.date.getDay() !== 0 ? (
           <h1>Sad Its not sunday</h1>
         ) : (
           <h1>Horray its sunday</h1>
