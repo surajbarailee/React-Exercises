@@ -7,6 +7,7 @@ import EventHandling from "./EventHandling";
 import ConditionalRendering from "./ConditionalRendering";
 import ListandKeys from "./ListandKeys";
 import Forms from "./Forms";
+import Calculator from "./Calculator";
 //use of hello world
 function App() {
   const componentvalue = {
@@ -28,6 +29,7 @@ function App() {
       <ConditionalRendering />
       <ListandKeys />
       <Forms />
+      <Calculator />
     </div>
   );
 }
