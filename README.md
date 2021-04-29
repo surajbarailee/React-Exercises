@@ -1,3 +1,3 @@
 # React-Exercises
 
-Collection of React Exercises on topics from official react documentation.
+Collection of React Exercises regarding the topics from official react documentation.
